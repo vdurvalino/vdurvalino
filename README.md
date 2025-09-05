@@ -55,83 +55,28 @@ Currently studying ways to apply **AI in the development pipeline.**
 
 <br>
 
+Technologies I Work With
+
 ### 🎯 Frontend
 
 ```typescript
-interface FrontendExpertise {
-  frameworks: {
-    name: string;
-    experience: string;
-    projectsScale: string;
-  }[];
-  languages: string[];
-  styling: string[];
-  state: string[];
+interface ExperienceInRealProjects {
+    [key: string]: string[]
 }
 
-const frontend: FrontendExpertise = {
-  frameworks: [
-    {
-      name: "React",
-      experience: "5+ years",
-      projectsScale: "Enterprise SaaS with 50k+ active users"
-    },
-    {
-      name: "Next.js", 
-      experience: "5+ years",
-      projectsScale: "High-traffic e-commerce & ERP systems"
-    }
-  ],
+const frontend: ExperienceInRealProjects = {
+  frameworks: ["React", "Next.js"],
   languages: ["TypeScript", "JavaScript"],
-  styling: ["Tailwind CSS", "CSS Modules"],
+  styling: ["Tailwind CSS", "Chakra UI"],
   state: ["Zustand", "Context API"]
 }
 ```
+### 🔧 Backend Development
+1. PHP with Laravel for robust web applications
+2. Node.js for real-time services _(mid level)_
+3. RESTful APIs following best practices
 
-### 🔧 Backend
-
-<table>
-<tr>
-<td width="50">
-  
-  🔹
-  
-</td>
-<td>
-  
-  **PHP** with **Laravel** for robust applications
-  
-</td>
-</tr>
-<tr>
-<td>
-  
-  🔹
-  
-</td>
-<td>
-  
-  **Node.js** for real-time services _(mid level)_
-  
-</td>
-</tr>
-<tr>
-<td>
-  
-  🔹
-  
-</td>
-<td>
-  
-  **REST APIs** following best practices
-  
-</td>
-</tr>
-</table>
-
-### 💾 Database
-
-
+### 💾 Database Solutions
 ```txt
 +--------------------+----------------------+
 | Database           | Use Case             |
@@ -141,63 +86,19 @@ const frontend: FrontendExpertise = {
 +--------------------+----------------------+
 ```
 
-
 ### 🚀 DevOps & Infrastructure
+1. Docker for containerization
+2. CI/CD pipelines
+3. Vercel for frontend hosting
+4. Linux server management
+5. VPS configuration
 
-```txt
-+------------+----------------------+
-| Technology | Purpose              |
-+------------+----------------------+
-| **Docker** | for containerization |
-| **CI/CD**  | pipelines            |
-| **Vercel** | for frontend hosting |
-| **Linux**  | server management    |
-| **VPS**    | configuration        |
-+------------+----------------------+
-```
+### 🧰 Development Tools
+1. Git - Version control
+2. WebStorm - Primary IDE
+3. Postman - API development
+4. Figma - Design collaboration
 
-### 🧰 Tools
-
-<table>
-<tr>
-<td align="center" width="120">
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
-  
-  **Git**
-  
-  Version control
-  
-</td>
-<td align="center" width="120">
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" width="40"/>
-  
-  **WebStorm**
-  
-  Primary IDE
-  
-</td>
-<td align="center" width="120">
-  
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="40"/>
-  
-  **Postman**
-  
-  API development
-  
-</td>
-<td align="center" width="120">
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40"/>
-  
-  **Figma**
-  
-  Design collaboration
-  
-</td>
-</tr>
-</table>
 
 <br>
 
@@ -215,15 +116,15 @@ const frontend: FrontendExpertise = {
 ### 🧠 AI Technologies
 
 ```txt
-+------------------------+------------------------------------------+
-| Technology             | Description                              |
-+------------------------+------------------------------------------+
-| **n8n**                | workflow automation                      |
-| **Prompt Engineering** | creating effective prompts               |
-| **RAG**                | intelligent responses with external data |
-| **MCP**                | multi-model orchestration                |
-| **Gemini CLI**         | automation via command line              |
-+------------------------+------------------------------------------+
++--------------------+------------------------------------------+
+| Technology         | Description                              |
++--------------------+------------------------------------------+
+| n8n                | workflow automation                      |
+| Prompt Engineering | creating effective prompts               |
+| RAG                | intelligent responses with external data |
+| MCP                | multi-model orchestration                |
+| Gemini CLI         | automation via command line              |
++--------------------+------------------------------------------+
 ```
 
 
